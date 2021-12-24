@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-header {
+    width: 1536px;
+    height: 28.8px;
+    background-color: #c42031;
+    display: flex;
+    align-items: center;
+    padding-left: 115px;
+}
+
+.container {
+    width: 1536px;
+    height: 100vh;
+}
+
+.nav-header-menu {
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+    margin: 0;
+    cursor: pointer;
+}
+
+hr {
+    transform: rotate(90deg);
+}
+
+.nav-header-box-yellow {
+    margin-left: 370px;
+    background-color: #f7961f;
+    width: 108px;
+    height: 28.8px;
+}
+
+.nav-header-box-blue {
+    background-color: #374f8a;
+    width: 324px;
+    height: 28.8px;
+}
+
+.nav-header-button {
+    border-radius: 5px;
+    color: white;
+    border-color: #337ab7;
+    background-color: #337ab7;
+    margin-top: 4px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 91.2px;
+    background-color: #fff;
+}
+
+.header-logo {
+    margin-left: 151px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    box-shadow: 20px 0 0 0 rgba(54, 53, 53, 0.5);
+    height: 48px;
+    width: 1536px;
+    background-color: #fed014;
+}
+
+.logo_quocki {
+    margin-bottom: 30px;
+}
+
+.nav-gioi_thieu {
+    width: 110px;
+    height: 48px;
+    border: none;
+    background-color: #fed014;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: #4a4949;
+}
+
+.nav-gioi_thieu:hover {
+    background-color: #fff;
+}
+
+.nav-menu-label {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: #4a4949;
+}
+
+.nav-menu-label:hover {
+    background-color: #fff;
+}
+
+.don_vi {
+    width: 120px;
+    height: 48px;
+}
+
+.lien_he {
+    width: 90px;
+    height: 48px;
+}
+
+.search {
+    height: 25px;
+    margin-left: 85px;
+    border-radius: 20px;
+    border-color: #999;
+    border: 0px;
+}
+
+.nav-gioi_thieu-option {
+    background-color: rgba(201, 192, 192, 0.5);
+}
+
+.trang_chu {
+    width: 1104px;
+    height: 552px;
+    background-color: #fff;
+}
+
+.button_trangchu {
+    font-weight: bold;
+    margin-left: 115px;
+    height: 24px;
+    width: 108px;
+    background-color: #e03a59;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button_gioithieu {
+    font-weight: bold;
+    margin-top: 10px;
+    height: 24px;
+    width: 108px;
+    background-color: #fed014;
+    color: black;
+    border: none;
+    margin-left: none;
+    cursor: pointer;
+}
+
+.gioithieu-bar {
+    background-color: #f1f1f1;
+    width: 955px;
+    height: 48px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.gioithieu {
+    margin-top: 46px;
+    margin-left: 95px;
+    margin-right: -22px;
+}
+
+.luan {
+    display: inline-flex;
+}
+
+.gioithieu_1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 16.8px;
+}
+
+.dong_ke {
+    width: 955px;
+    height: 48px;
+    background-color: #fff;
+    margin-left: 123px;
+}
+
+.dong_ke_ngang {
+    margin-left: 120px;
+    margin-top: 30.5px;
+    transform: rotate(180deg);
+}
+
+.noi_dung {
+    margin-top: 20px;
+    width: 955px;
+    height: 192px;
+    background-color: #fff0d9;
+    margin-left: 120px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.noi_dung_1 {
+    padding: 23px 56px;
+    color: black;
+    text-align: left;
+    word-spacing: 5px;
+}
+
+.noi_dung_2 {
+    margin-top: 12px;
+    margin-left: 123px;
+}
+
+.pic1 {
+    margin-top: 20px;
+    margin-left: 123px;
+    width: 955px;
+}
+
+.noidung2 {
+    font-size: 14px;
+    width: 955px;
+}
+
+.noi_dung_1 {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.noi_dung_2 {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.pic2 {
+    margin-left: 123px;
+    margin-top: 10px;
+    width: 955px;
+}
+
+.noidung3 {
+    margin-left: 123px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.noi_dung_3 {
+    width: 97.5%;
+}
+
+.ndung3 {
+    display: flex;
+    align-items: center;
+}
+
+.giang_duong {
+    margin-left: 123px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.noidung_gioithieu {
+    width: 97.5%;
+}
+
+.binh_luan {
+    margin-top: 10px;
+    width: 955px;
+    height: 37px;
+    margin-left: 123px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.them_binh_luan {
+    width: 955px;
+    height: 96px;
+    background-color: #fff;
+    margin-left: 123px;
+    display: flex;
+    align-items: center;
+}
+
+.them {
+    width: 892px;
+    height: 52px;
+    margin-left: 5px;
+    border-color: black;
+}
+
+.option:hover {
+    background-color: rgb(9, 38, 134);
+}
